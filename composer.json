@@ -1,0 +1,11 @@
+{
+    "name": "derickhermanson/php-tools",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Derick Hermanson",
+            "email": "derick.hermanson@gmail.com"
+        }
+    ],
+    "require": {}
+}
