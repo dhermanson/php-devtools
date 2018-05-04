@@ -1,0 +1,4 @@
+suites:
+  default:
+    namespace: dhermanson\DevTools
+    psr4_prefix: dhermanson\DevTools
