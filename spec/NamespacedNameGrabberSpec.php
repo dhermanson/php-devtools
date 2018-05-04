@@ -2,12 +2,12 @@
 
 namespace spec\dhermanson\DevTools;
 
-use dhermanson\DevTools\NamespaceGrabber;
+use dhermanson\DevTools\NamespacedNameGrabber;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 use PhpParser\ParserFactory;
 
-class NamespaceGrabberSpec extends ObjectBehavior
+class NamespacedNameGrabberSpec extends ObjectBehavior // 
 {
 
   function it_should_extract_namespace_for_a_class() {

@@ -6,7 +6,7 @@ use PhpParser\{Node, NodeFinder, Parser, NodeTraverser, ParserFactory};
 use PhpParser\NodeVisitor\{NameResolver};
 use PhpParser\Node\Stmt;
 
-class NamespaceGrabber {
+class NamespacedNameGrabber {
 
   public function getNamespacedName($code, $line) {
     $ast = $this->parseAst($code);
